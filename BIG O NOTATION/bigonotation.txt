@@ -1,0 +1,24 @@
+WHAT IS BIG O NOTATION?
+-> Big O is the language and metric we use to describe the efficiency of algorithms.
+
+TIME COMPLEXITY
+-> A way of showing how the runtime of a function increases as the size of input increases.
+
+Big O - It is the complexity that is going to be less or equal to the worst case.
+Big Omega - It is the complexity that is going to be at least more than the best case.
+Big Theta - It is a complexity that is within bounds of the worst and the best cases.
+
+RUNTIME COMPLEXITIES
+
+O(1) - Constant Time - A simple add numbers function.
+0(N) - Linear - Loop through numbers from 1 to n.
+0(Log N) - Logarithmic - Find an element in sorted array.
+0(N^2) - Quadratic - Nested Loops.
+0(2^N) - Exponential - Double Recursion in Fibonacci Sequence.
+
+DROPPING CONSTANTS 
+-> It is very possible that O(N) code is faster than O(1) code for specific inputs.
+-> Different computers with different architectures have different constant factors.
+-> Different algorithms with the same basic idea and computational complexity might have slightly different constants.
+-> As n -> infinity, constant factors are not really a big deal.
+
