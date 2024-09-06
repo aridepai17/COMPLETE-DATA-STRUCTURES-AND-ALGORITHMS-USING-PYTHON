@@ -1,0 +1,56 @@
+WHAT IS A DATA STRUCTURE?
+
+-> Data Structures are different ways of organizing data on your computer, that can be used effectively.
+
+WHAT IS AN ALGORITHM?
+
+-> Set of instructions to perform a task.
+-> Set of rules for a computer program to accomplish a task.
+
+WHAT MAKES A GOOD ALGORITHM?
+ 
+-> Correctness
+-> Efficiency
+
+TYPES OF DATA STRUCTURES:
+
+1. PRIMITIVE
+    -> Integer
+    -> Float
+    -> String
+    -> Boolean
+
+2. NON-PRIMITIVE
+    -> LINEAR
+        -> List
+        -> Tuple
+        -> Array
+        -> Linked List
+        -> Stack
+        -> Queue
+
+    -> NON-LINEAR
+        -> Graph
+        -> Tree
+        -> Dictionary
+        -> Set
+
+TYPES OF ALGORITHMS
+
+1. SORTING
+    -> To sort data in ascending or descending order.
+
+2. SEARCH 
+    -> To find a specific value in a data set.
+
+3. GRAPH
+    -> To work with data that can be represented as a graph.
+
+4. DYNAMIC PROGRAMMING
+    -> To solve problems by breaking them down into smaller subproblems.
+
+5. DIVIDE AND CONQUER
+    -> To solve problems by breaking them down into smaller subproblems, solving each subproblem independently, and then combining the results.
+
+6. RECURSIVE
+    -> To solve problems by breaking them down into smaller subproblems that are similar in nature.
