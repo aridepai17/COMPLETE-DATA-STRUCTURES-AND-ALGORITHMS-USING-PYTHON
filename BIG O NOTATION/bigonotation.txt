@@ -22,3 +22,40 @@ DROPPING CONSTANTS
 -> Different algorithms with the same basic idea and computational complexity might have slightly different constants.
 -> As n -> infinity, constant factors are not really a big deal.
 
+DIFFERENT TERMS FOR INPUT - ADD VS MULTIPLY
+
+def printitems(a,b):
+    for i in range(a):
+        print(i)
+
+    for j in range(b):
+        print(j)
+
+-> Add the runtimes: O(A + B)
+-> If your algorithm is in the form "Do this, then when you are all done, do that", then you add the runtimes.
+
+def printitems(a,b):
+    for i in range(a):
+        for j in range(b):
+            print(i,j)
+
+-> Multiply the runtimes: O(A * B)
+-> If your algorithm is in the form "Do this for each time you do that", then you multiply the runtimes.
+
+HOW TO MEASURE THE CODES USING BIG O NOTATION?
+
+Rule 1
+-> Any assignment statements and if statements that are executed once regardless of the size of the problem - O(1)
+
+Rule 2
+-> A simple "for" loop from 0 to n ( with no internal loops ) - 0(n)
+
+Rule 3
+-> A nested loop of the dame type takes quadratic time complexity - O(n^2)
+
+Rule 4
+-> A loop, in which the controlling parameter is divided by two at each step - O(log n)
+
+Rule 5
+-> When dealing with multiple statements, just add them up.
+
