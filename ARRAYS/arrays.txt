@@ -14,3 +14,7 @@ TYPES OF ARRAYS
     -> An array with a bunch of values having been declared with three indexes.
     -> a[i][j][k] is i between 0 and n-1, j between 0 and m-1 and k between 0 and l-1.
 
+TWO DIMENSIONAL ARRAYS
+-> An array with a bunch of values having been declared with double index.
+a[i][j] -> i and j between 0 and n
+
