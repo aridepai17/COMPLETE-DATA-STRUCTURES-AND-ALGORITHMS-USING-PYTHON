@@ -10,3 +10,35 @@ print(newtwodarray)
 
 newtwodarray = np.append(twodarray, [[1, 2, 3, 4]], axis=0)
 print(newtwodarray)
+
+#Accessing elements of two dimensional array
+twodarray = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])
+print(twodarray)
+
+def accesselements(array, rowindex, columnindex):
+    if rowindex >= len(array) and columnindex >= len(array[0]):
+        print('Incorrect index')
+    else:
+        print(array[rowindex][columnindex])
+        
+accesselements(twodarray, 1, 2)
+#Time Complexity: O(1)
+#Space Complexity: O(1)
+
+#Traversing a two dimensional array
+twodarray = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])
+print(twodarray)
+
+def traversetwodarray(array):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            print(array[i][j])
+            
+traversetwodarray(twodarray)
+#Time Complexity: O(n*m)
+#Space Complexity: O(1)
+
+#Searching for element in two dimensional array
+twodarray = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])
+print(twodarray)
+            
