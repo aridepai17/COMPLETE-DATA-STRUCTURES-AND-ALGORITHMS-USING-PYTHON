@@ -41,4 +41,24 @@ traversetwodarray(twodarray)
 #Searching for element in two dimensional array
 twodarray = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])
 print(twodarray)
+
+def searchtwodarray(array, element):
+    for i in range(len(array)):
+        for j in range(len(array[0])):
+            if array[i][j] == element:
+                return 'Element found at index: '+str(i)+', '+str(j)
+    return 'Element not found'
+
+print(searchtwodarray(twodarray, 17))
+#Time Complexity: O(n*m)
+#Space Complexity: O(1)
+
+#Deletion of element in two dimensional array
+twodarray = np.array([[11, 15, 10, 6], [10, 14, 11, 5], [12, 17, 12, 8], [15, 18, 14, 9]])
+print(twodarray)
+
+newtwodarray = np.delete(twodarray, 1, axis=0)
+print(newtwodarray)
+#Time Complexity: O(n*m)
+#Space Complexity: O(1)
             
