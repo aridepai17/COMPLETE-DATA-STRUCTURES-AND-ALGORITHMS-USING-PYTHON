@@ -18,3 +18,11 @@ TWO DIMENSIONAL ARRAYS
 -> An array with a bunch of values having been declared with double index.
 a[i][j] -> i and j between 0 and n
 
+WHEN TO USE ARRAYS?
+-> To store multiple variables of same data type.
+-> Random access
+
+WHEN TO AVOID ARRAYS?
+-> Same data type elements
+-> Reserve memory 
+
