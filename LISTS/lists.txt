@@ -1,0 +1,3 @@
+Python Lists
+-> A list is a data structure that holds an ordered collection of items.
+eg: [1,2,3,4,5]
