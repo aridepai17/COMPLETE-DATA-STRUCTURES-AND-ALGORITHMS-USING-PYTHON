@@ -32,3 +32,28 @@ newlist = [1, 2, 3, 4, 5]
 minelist.extend(newlist) #Inserting the elements of newlist at the end of minelist
 print(minelist)
 #Time Complexity: O(n)
+
+#Slicing/Deletion of items in the list
+yourlist = [1, 2, 3, 4, 5, 6, 7, 8 , 9, 10]
+print(yourlist)
+
+print(yourlist[0:2]) #prints [1, 2] from index 0 to 1
+print(yourlist[2:5]) #prints [3, 4, 5] from index 2 to 4
+print(yourlist[1:])
+print(yourlist[:5]) #prints [1, 2, 3, 4, 5] from index 0 to 4
+
+yourlist.pop(1) #removes the item at index 1
+print(yourlist)
+#Time Complexity: O(n)
+
+yourlist.remove(5) #removes the item 5
+print(yourlist)
+#Time Complexity: O(n)
+
+del yourlist[0] #removes the item at index 0
+#Time Complexity: O(n)
+del yourlist[2:4] #removes the items from index 2 to 3
+print(yourlist)
+
+
+
