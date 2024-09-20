@@ -51,9 +51,32 @@ print(yourlist)
 #Time Complexity: O(n)
 
 del yourlist[0] #removes the item at index 0
-#Time Complexity: O(n)
+#Time Complexity: O(n)-
 del yourlist[2:4] #removes the items from index 2 to 3
 print(yourlist)
+
+#Searching for an item in the list
+ourlist = [1, 2, 3, 4, 5, 6, 7, 8 , 9, 10]
+#in operator
+target = 5
+if target in ourlist:
+    print(f'{target} is present in ourlist')
+else:
+    print(f'{target} is not present in ourlist')
+#Time Complexity: O(n)
+
+#Linear Search
+def linearsearchlist(plist, ptarget):
+    for i, value in enumerate(plist):
+        if value == ptarget:
+            return i
+    return -1
+
+linearsearchlist(ourlist, target)
+#Time Complexity: O(n)
+#Space Complexity: O(1)
+
+
 
 
 
