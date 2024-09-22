@@ -1,3 +1,9 @@
 Python Lists
 -> A list is a data structure that holds an ordered collection of items.
 eg: [1,2,3,4,5]
+
+Python List and Python Arrays SIMILARITIES
+-> Both data structures are mutable.
+-> Both can be indexed and iterated through.
+-> They can be both sliced.
+
